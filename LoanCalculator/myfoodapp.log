@@ -1,0 +1,91 @@
+2023-10-09 11:42:56.369  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Starting HomeLoan2Application using Java 17.0.6 on LIN59017703 with PID 18100 (C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator\target\classes started by aiskore in C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator)
+2023-10-09 11:42:56.381  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-10-09 11:42:58.664  INFO 18100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 11:42:58.665  INFO 18100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-09 11:42:58.786  INFO 18100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 11:42:59.054  INFO 18100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 11:42:59.165  INFO 18100 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-10-09 11:42:59.417  INFO 18100 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-10-09 11:42:59.591  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-09 11:42:59.878  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-09 11:42:59.902  INFO 18100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-09 11:43:00.897  INFO 18100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 11:43:01.509  WARN 18100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 11:43:02.193  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Started HomeLoan2Application in 6.445 seconds (JVM running for 7.232)
+2023-10-09 11:43:07.799  INFO 18100 --- [http-nio-2003-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-09 13:37:49.128  WARN 18100 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m48s114ms20µs700ns).
+2023-10-09 13:54:19.978  INFO 18100 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09 13:54:19.983  INFO 18100 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-09 13:54:19.999  INFO 18100 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-09 13:54:20.014  INFO 18100 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-09 13:54:20.200  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Starting HomeLoan2Application using Java 17.0.6 on LIN59017703 with PID 18100 (C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator\target\classes started by aiskore in C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator)
+2023-10-09 13:54:20.201  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-10-09 13:54:20.853  INFO 18100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 13:54:20.853  INFO 18100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-09 13:54:20.895  INFO 18100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-09 13:54:20.975  INFO 18100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 13:54:20.987  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-09 13:54:21.098  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-09 13:54:21.098  INFO 18100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-09 13:54:21.303  INFO 18100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 13:54:21.317  WARN 18100 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeLoanController' defined in file [C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator\target\classes\com\cg\homeloan\controller\HomeLoanController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'homeLoanServiceImpl': Unsatisfied dependency expressed through field 'homeLoanDao'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'Repository.HomeLoanDao' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-10-09 13:54:21.318  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-09 13:54:21.376  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-09 13:54:21.377  INFO 18100 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09 13:54:21.433 ERROR 18100 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field homeLoanDao in com.cg.homeloan.service.HomeLoanServiceImpl required a bean of type 'Repository.HomeLoanDao' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'Repository.HomeLoanDao' in your configuration.
+
+2023-10-09 13:54:36.519  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Starting HomeLoan2Application using Java 17.0.6 on LIN59017703 with PID 18100 (C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator\target\classes started by aiskore in C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator)
+2023-10-09 13:54:36.520  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-10-09 13:54:37.086  INFO 18100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 13:54:37.088  INFO 18100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-09 13:54:37.144  INFO 18100 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-09 13:54:37.227  INFO 18100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 13:54:37.238  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-10-09 13:54:37.411  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-10-09 13:54:37.412  INFO 18100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-09 13:54:37.518  INFO 18100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 13:54:37.691  WARN 18100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 13:54:38.029  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Started HomeLoan2Application in 1.632 seconds (JVM running for 7903.039)
+2023-10-09 13:54:53.003  INFO 18100 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09 13:54:53.007  INFO 18100 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-10-09 13:54:53.013  INFO 18100 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-10-09 13:54:53.129  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Starting HomeLoan2Application using Java 17.0.6 on LIN59017703 with PID 18100 (C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator\target\classes started by aiskore in C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator)
+2023-10-09 13:54:53.130  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-10-09 13:54:53.507  INFO 18100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 13:54:53.507  INFO 18100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-09 13:54:53.553  INFO 18100 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-09 13:54:53.627  INFO 18100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 13:54:53.636  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-10-09 13:54:53.763  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-10-09 13:54:53.764  INFO 18100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-09 13:54:53.864  INFO 18100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 13:54:54.005  WARN 18100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 13:54:54.198  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Started HomeLoan2Application in 1.11 seconds (JVM running for 7919.208)
+2023-10-09 13:55:17.478  INFO 18100 --- [Thread-14] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-09 13:55:17.491  INFO 18100 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-10-09 13:55:17.507  INFO 18100 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-10-09 13:55:17.620  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Starting HomeLoan2Application using Java 17.0.6 on LIN59017703 with PID 18100 (C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator\target\classes started by aiskore in C:\Users\AISKORE\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\LoanCalculator)
+2023-10-09 13:55:17.621  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : No active profile set, falling back to 1 default profile: "default"
+2023-10-09 13:55:17.993  INFO 18100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-09 13:55:17.993  INFO 18100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2023-10-09 13:55:18.030  INFO 18100 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-09 13:55:18.077  INFO 18100 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-09 13:55:18.087  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-10-09 13:55:18.222  INFO 18100 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-10-09 13:55:18.223  INFO 18100 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-09 13:55:18.317  INFO 18100 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-09 13:55:18.442  WARN 18100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-09 13:55:18.555  INFO 18100 --- [restartedMain] com.cg.homeloan.HomeLoan2Application     : Started HomeLoan2Application in 0.974 seconds (JVM running for 7943.565)
